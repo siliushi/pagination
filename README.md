@@ -3,10 +3,10 @@
 [demo](http://example.com/)
 # Install
 + in your html, you just do like this    
-
+<code>
 <link rel="stylesheet" href="dist/pagination.css">
 <script src="dist/pagination.js"></script>     
-
+</code>
 + or you use requireJs      
 `
 define(["pagination"], function () {   
