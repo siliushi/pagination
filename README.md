@@ -1,6 +1,6 @@
 # pagination
    Pagination is a front page plugin, do not rely on any JS Library.
-[demo](http://example.com/)
+[demo](http://baixuexiyang.github.io/pagination/)
 # Install
 + in your html, you just do like this    
 ```
