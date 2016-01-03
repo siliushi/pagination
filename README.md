@@ -3,10 +3,10 @@
 [demo](http://example.com/)
 # Install
 + in your html, you just do like this    
-<code>
+```
 <link rel="stylesheet" href="dist/pagination.css">
 <script src="dist/pagination.js"></script>     
-</code>
+```
 + or you use requireJs      
 `
 define(["pagination"], function () {   
@@ -22,14 +22,14 @@ seaJs.use('pagination');
 
 `
 pagination({
-	cur: 1,     // 当前页数
-	total: 6,        // 总共多少页
-	len: 5,          // 分页显示多少
-	targetId: 'pagination', // 分页元素绑定
-	callback: function() {
-		// 回调函数
-	}
-})
+	cur: 1,     // 当前页数    
+	total: 6,        // 总共多少页   
+	len: 5,          // 分页显示多少     
+	targetId: 'pagination', // 分页元素绑定     
+	callback: function() {    
+		// 回调函数   
+	}   
+})   
 `
 
 # options
