@@ -20,7 +20,7 @@ seaJs.use('pagination');
    
 # example
 
-`
+```
 pagination({
 	cur: 1,     // 当前页数    
 	total: 6,        // 总共多少页   
@@ -30,7 +30,7 @@ pagination({
 		// 回调函数   
 	}   
 })   
-`
+```
 
 # options
 
