@@ -2,20 +2,18 @@
    Pagination is a front page plugin, do not rely on any JS Library.
 [demo](http://example.com/)
 # Install
-*in your html, you just do like this    
++ in your html, you just do like this    
 
-`
 <link rel="stylesheet" href="dist/pagination.css">
-<script src="dist/pagination.js"></script>
-`     
+<script src="dist/pagination.js"></script>     
 
-*or you use requireJs      
++ or you use requireJs      
 `
 define(["pagination"], function () {   
 	// your code   
 });   
 `  
-*or maybe you use seaJs  
++ or maybe you use seaJs  
 `    
 seaJs.use('pagination');   
 `   
