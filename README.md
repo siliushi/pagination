@@ -2,22 +2,24 @@
    Pagination is a front page plugin, do not rely on any JS Library.
 [demo](http://example.com/)
 # Install
-*in your html, you just do like this
+*in your html, you just do like this    
+
 `
 <link rel="stylesheet" href="dist/pagination.css">
 <script src="dist/pagination.js"></script>
-`
-*or you use requireJs
-`
-define(["pagination"], function () {
-	// your code
-});
-`
-*or maybe you use seaJs
-`
-seaJs.use('pagination');
-`
+`     
 
+*or you use requireJs      
+`
+define(["pagination"], function () {   
+	// your code   
+});   
+`  
+*or maybe you use seaJs  
+`    
+seaJs.use('pagination');   
+`   
+   
 # example
 
 `
@@ -38,7 +40,7 @@ pagination({
 当前页数，每次调用传递当前分页
 
 ### total
-总过多少页，根据总数和每页显示数量可以获取
+总共多少页，根据总数和每页显示数量可以获取
 
 ### len
 分页栏上显示的数量
