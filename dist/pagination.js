@@ -84,7 +84,7 @@
         tar.innerHTML = html;
         if(options.callback) {
             // 执行回调
-            options.callback();
+            options.callback(total);
         }
     }
 

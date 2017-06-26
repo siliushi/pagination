@@ -1,5 +1,5 @@
 # pagination
-   Pagination is a front page plugin, do not rely on any JS Library.
+   Pagination is a front page plugin, do not rely on any JS Library. Support es6   paginationEs6.js   
 [demo](http://baixuexiyang.github.io/pagination/)
 # Install
 + in your html, you just do like this    

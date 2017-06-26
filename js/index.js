@@ -12,8 +12,7 @@ function initUI(pageNo, pageSize) {
 		total: 6,
 		len: 5,
 		targetId: 'pagination',
-		callback: function() {
-			var me = this;
+		callback: function(total) {
 			var oPages = document.getElementsByClassName('page-index');
 			for(var i = 0; i < oPages.length; i++) {
 				oPages[i].onclick=function() {
@@ -23,7 +22,7 @@ function initUI(pageNo, pageSize) {
 			var goPage = document.getElementById('go-search');
 			goPage.onclick = function() {
 				var index = document.getElementById('yeshu').value;
-				if(!index || (+index > me.total) || (+index < 1)) {
+				if(!index || (+index > total) || (+index < 1)) {
 					return;
 				}
 				initUI(index, 5);
