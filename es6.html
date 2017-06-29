@@ -26,14 +26,16 @@
 		</ul>
 		<div id="pagination" class="pagination"></div>
 	</div>
+	<script src="/js/lib/babel.js"></script>
+	<script src="/js/lib/babel-polyfill.js"></script>
+	<script src="/js/lib/babel-require.js"></script>
 	<script>
-		function require(){
-		    
-		}
+		// require根路径
+		require.config({
+			path: '/'
+		});
 	</script>
-	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-	<script type="text/babel" src="dist/paginationEs6.js"></script>
-	<script type="text/babel" src="js/data.js"></script>
-	<script type="text/babel" src="js/index.js"></script>
+	<!-- <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+	<script type="text/babel" src="js/indexEs6.js" charset="UTF-8"></script>
 </body>
 </html>
